@@ -1,0 +1,18 @@
+.todo {
+    margin: 5px;
+}
+
+.done {
+    color: lightgray;
+    text-decoration: line-through;
+}
+
+.trash:before {
+    margin-left: 50px;
+    content: '✖';
+}
+
+.trash:hover {
+    color: red;
+    cursor: pointer;
+}
